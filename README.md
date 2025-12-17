@@ -24,7 +24,8 @@ The strategy involves a recursive loop ("Looping"):
 
 ## 3. Summary
 *   **Trend:** The strategy has significantly **deteriorated** in the second half of 2025.
-*   **Spread Inversion:** While the **Median** spread is positive (+0.09%), the **Mean** spread is negative (-0.22%) due to high borrow rate spikes.
+*   **Spread Inversion:** While the **Median** base spread (Staking - Borrow) is positive (+0.09%), the **Mean** base spread is negative (-0.22%) due to high borrow rate spikes.
+*   **Leverage Multiplier:** Since the base spread is negative on average, adding leverage **multiplies your losses** rather than your gains.
 *   **Underperformance:** In almost all recent cases, **this strategy performed WORSE than simply holding JitoSOL (1x).**
 
 ---

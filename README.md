@@ -29,7 +29,7 @@ The strategy involves a recursive loop ("Looping"):
 
 ---
 
-## 4. Benchmark Comparison (Strategy vs. Simple Staking)
+## 4. Optimistic Benchmark Comparison (Strategy vs. Simple Staking)
 
 The table below compares the **Strategy Return** (at various leverages) vs. **Benchmark Return** (Just holding JitoSOL with 0 debt).
 
@@ -54,15 +54,7 @@ The table below compares the **Strategy Return** (at various leverages) vs. **Be
 | 10x | -7.03% | -1.60% | 🔻 -3.16% |
 
 ---
-
-## 5. Key Insights: The "Negative Carry"
-
-As of late 2025, the cost to borrow SOL (~7.7%) is consistently higher than the yield from staking JitoSOL (~6.2%).
-*   **Formula:** `Net = (Yield * L) - (Cost * (L-1))`
-*   With Yield < Cost, increasing `L` (Leverage) **mathematically guarantees** a lower (or more negative) return.
-*   You are effectively **paying interest** to hold a position that yields less than the interest cost.
-
-## 6. The "Hidden" Costs (Why it's actually worse)
+## 5. The "Hidden" Costs (Why it's actually worse)
 The simulation above is optimistic. Real-world execution includes costs that make the strategy even less attractive:
 
 1.  **Swap Fees & Slippage:**
@@ -75,5 +67,13 @@ The simulation above is optimistic. Real-world execution includes costs that mak
 3.  **Borrow Fees:** Kamino often charges a small origination fee or spread on the borrow rate.
 
 > **Conclusion:** Given the current "Negative Carry" environment (Borrow Rate > Staking Yield) + execution costs, this strategy is currently **inferior to simply staking SOL into JitoSOL.**
+
+## 6. Key Insights: The "Negative Carry"
+
+As of late 2025, the cost to borrow SOL (~7.7%) is consistently higher than the yield from staking JitoSOL (~6.2%).
+*   **Formula:** `Net = (Yield * L) - (Cost * (L-1))`
+*   With Yield < Cost, increasing `L` (Leverage) **mathematically guarantees** a lower (or more negative) return.
+*   You are effectively **paying interest** to hold a position that yields less than the interest cost.
+
 
 > do what you want from this information.

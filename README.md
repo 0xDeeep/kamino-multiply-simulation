@@ -37,22 +37,22 @@ The table below compares the **Strategy Return** (at various leverages) vs. **Be
 ### 📅 Last 12 Months (Dec '24 - Dec '25)
 *Benchmark (1x JitoSOL) earned **~7.60%**. The strategy **UNDERPERFORMED** the benchmark at every leverage level.*
 
-| Lev | Avg Net APY | Return % | vs. Benchmark (1x) |
-|---|---|---|---|
-| **1x (Benchmark)** | **7.60%** | **7.60%** | **--** |
-| 2x | 7.38% | 7.30% | 🔻 -0.30% |
-| 5x | 6.73% | 6.31% | 🔻 -1.29% |
-| 10x | 5.63% | 5.73% | 🔻 -1.87% |
+| Lev | Avg Net APY | APY vs Bench (Opp. Cost) | Return % | Return vs Bench |
+|---|---|---|---|---|
+| **1x (Bench)** | **7.60%** | **--** | **7.60%** | **--** |
+| 2x | 7.38% | 🔻 -0.22% | 7.30% | -0.30% |
+| 5x | 6.73% | 🔻 -0.87% | 6.31% | -1.29% |
+| 10x | 5.63% | 🔻 -1.97% | 5.73% | -1.87% |
 
 ### 📅 Last 3 Months (Sep '25 - Dec '25)
 *Benchmark earned **~1.56%** (6.2% annualized). The strategy lost money at high leverage.*
 
-| Lev | Avg Net APY | Return % | vs. Benchmark (1x) |
-|---|---|---|---|
-| **1x (Benchmark)** | **6.23%** | **1.56%** | **--** |
-| 2x | 4.76% | 1.16% | 🔻 -0.40% |
-| 5x | 0.34% | -0.10% | 🔻 -1.66% |
-| 10x | -7.03% | -1.60% | 🔻 -3.16% |
+| Lev | Avg Net APY | APY vs Bench (Opp. Cost) | Return % | Return vs Bench |
+|---|---|---|---|---|
+| **1x (Bench)** | **6.23%** | **--** | **1.56%** | **--** |
+| 2x | 4.76% | 🔻 -1.47% | 1.16% | -0.40% |
+| 5x | 0.34% | 🔻 -5.89% | -0.10% | -1.66% |
+| 10x | -7.03% | 🔻 -13.26% | -1.60% | -3.16% |
 
 ---
 ## 5. The "Hidden" Costs (Why it's actually worse)
